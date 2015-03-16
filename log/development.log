@@ -1,0 +1,1544 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-11 00:03:59 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (70.3ms)
+Completed 500 Internal Server Error in 278ms
+
+ActionView::Template::Error (couldn't find file 'owl.carousel'
+  (in /Users/bradley/Dropbox/Development/emptyscope/app/assets/stylesheets/application.css:12)):
+    40: <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    41: <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+    42:     
+    43: <%= stylesheet_link_tag "application", "data-turbolinks-track" => true %>
+    44: 
+    45: 
+    46: <!--[if lt IE 9]>
+  app/views/layouts/application.html.erb:43:in `_app_views_layouts_application_html_erb__3118034043253201145_2168861960'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-11 00:05:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 2630ms (Views: 2628.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:57 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:57 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:57 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:57 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-11 00:05:59 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-11 00:06:00 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-11 00:06:01 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-11 00:06:01 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-11 00:06:01 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:01 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:01 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:02 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:02 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:02 -0600
+
+
+Started GET "/assets/favicons/favicon.ico" for 127.0.0.1 at 2015-02-11 00:06:02 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:30 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:31 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:31 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:31 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:31 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:32 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:32 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:32 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:32 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:33 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:33 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:33 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:33 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:33 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:34 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:36 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:36 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:36 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:36 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:36 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:37 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:37 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:37 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:37 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:37 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:48 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:48 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:48 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:48 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:48 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:49 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:49 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:49 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:49 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:49 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:52 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:52 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:52 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:53 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:56 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:56 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:56 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:57 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:57 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:06:58 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:06:58 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:06:58 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:06:59 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:06:59 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:07:06 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:07:07 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:07:07 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:07:07 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:07:07 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:07:07 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:07:08 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:07:08 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:07:08 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:07:08 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:07:15 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:07:15 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:07:15 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:07:15 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:07:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-11 00:09:12 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (97.7ms)
+Completed 200 OK in 156ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:13 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-11 00:09:14 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:09:15 -0600
+
+
+Started GET "/assets/favicons/favicon.ico" for 127.0.0.1 at 2015-02-11 00:09:16 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-11 00:23:38 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 121ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:39 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:39 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-11 00:23:40 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:41 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:52 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:52 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:53 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:53 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:53 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:54 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:54 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:54 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:54 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:54 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:55 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:55 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:55 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:55 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:55 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:56 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:56 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:56 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:56 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:56 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:58 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:58 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:58 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:23:58 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:23:58 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:23:59 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:23:59 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:23:59 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:24:00 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:24:00 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:24:04 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:24:04 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:24:04 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:24:04 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:24:04 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:25:27 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:25:28 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:25:28 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:25:28 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:25:28 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:28:08 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:28:08 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:28:08 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:28:08 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:28:08 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:28:28 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:28:28 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:28:28 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:28:28 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:28:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-02-11 00:33:38 -0600
+
+
+Started GET "/assets/favicons/favicon.ico" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-11 00:33:39 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-11 00:33:40 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:44:26 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 228ms (Views: 210.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:32 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:33 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:34 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-16 23:44:35 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-16 23:44:36 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-16 23:44:36 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-16 23:44:36 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-16 23:44:36 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-16 23:44:36 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/assets/favicons/favicon.ico" for 127.0.0.1 at 2015-02-16 23:44:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:59:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:32 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:33 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-16 23:59:34 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-16 23:59:35 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-16 23:59:35 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-16 23:59:35 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-16 23:59:35 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-16 23:59:35 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/retina.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/owl.carousel.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/owl.theme.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/owl.transitions.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:55 -0600
+
+
+Started GET "/assets/magnific-popup.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/emptyscope.css?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jquery.easing.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/classie.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/owl.carousel.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jquery.magnific-popup.min.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jquery.fs.wallpaper.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/contact_me.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/jqBootstrapValidation.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/emptyscope.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/cbpAnimatedHeader.js?body=1" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/bg-header.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/profile.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/technologies.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/people/brad.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/bg-aside.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/bg-footer.jpg" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/favicons/favicon-32x32.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/favicons/favicon-16x16.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/favicons/favicon-96x96.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/favicons/favicon-160x160.png" for 127.0.0.1 at 2015-02-16 23:59:57 -0600
+
+
+Started GET "/assets/favicons/favicon-192x192.png" for 127.0.0.1 at 2015-02-16 23:59:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-24 23:57:47 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 91ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-24 23:59:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:00:29 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?codekitCB=446536868.131169" for 127.0.0.1 at 2015-02-25 00:01:08 -0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"codekitCB"=>"446536868.131169"}
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:01:08 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:01:11 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:02:07 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?codekitCB=446536968.162627" for 127.0.0.1 at 2015-02-25 00:02:48 -0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"codekitCB"=>"446536968.162627"}
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:02:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:02:54 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:02:56 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:05:36 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:05:45 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:25:32 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 106ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:25:39 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-25 00:27:48 -0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 00:23:08 -0500
+
+Mysql2::Error (Lost connection to MySQL server at 'reading initial communication packet', system error: 0):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2462103074080584754__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 00:33:04 -0500
+
+Mysql2::Error (Lost connection to MySQL server at 'reading initial communication packet', system error: 0):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2462103074080584754__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/kd" for 127.0.0.1 at 2015-03-10 00:33:17 -0500
+
+Mysql2::Error (Lost connection to MySQL server at 'reading initial communication packet', system error: 0):
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.17) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.0.2) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:440:in `new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:450:in `checkout_new_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:421:in `acquire_connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /Users/bradley/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.2) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.2) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.2) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:373:in `_run__2462103074080584754__call__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/kd" for 127.0.0.1 at 2015-03-10 00:36:30 -0500
+
+ActionController::RoutingError (No route matches [GET] "/kd"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (27.7ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (83.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 00:36:34 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 49ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 20:51:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 103ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-03-15 20:51:29 -0500
+
+ActionController::RoutingError (No route matches [GET] "/assets/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (40.4ms)
+  Rendered /Users/bradley/.rvm/gems/ruby-2.1.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (270.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 20:57:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 20:57:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 20:57:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 20:59:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 44ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-15 21:00:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
