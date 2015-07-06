@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y libpq-dev libreadline-dev mysql-client libmysqlclient-dev
+    apt-get install -y libpq-dev libreadline-dev mysql-client libmysqlclient-dev nodejs
 
 RUN gem install bundler
 
@@ -31,4 +31,4 @@ EXPOSE 9292
 
 USER ruby
 
-CMD ["bash"]
+CMD bundle exec puma -C config/puma.rb
